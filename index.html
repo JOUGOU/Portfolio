@@ -27,9 +27,10 @@
             </ul>
         </nav>
         <div>
-            <img class="relative w-full h-screen opacity-30" src="./img/wallpaperbetter.jpg">
-            <div class="absolute text-5xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
-                <div class="stage">
+            <img class="hidden sm:flex relative w-full h-screen opacity-30" src="./img/wallpaperbetter.jpg">
+            <img class="flex sm:hidden relative w-full h-screen opacity-30" src="./img/wallpapermobile.jpeg">
+            <div class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
+                <div class="stage hidden xl:flex text-9xl italic">
                     <div class="layer"></div>
                     <div class="layer"></div>
                     <div class="layer"></div>
@@ -51,6 +52,28 @@
                     <div class="layer"></div>
                     <div class="layer"></div>
                   </div>
+                  <div class="stage1 flex xl:hidden text-8xl italic">
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                    <div class="layer1"></div>
+                  </div>
                   
                   <style>
                     * *, *::before, *::after { 
@@ -60,11 +83,11 @@
                   <script>window.setTimeout = null;</script>
                   
             </div>
-            <a href="#about"><svg class="absolute w-12 top-3/4 p-2.5 fill-white rounded-full border-2 left-1/2 -translate-x-1/2 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><
+            <a href="#about"><svg class="absolute w-12 top-3/4 p-2.5 fill-white rounded-full border-2 left-1/2 -translate-x-1/2 -translate-y-1/2 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><
                 <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/>
             </svg></a>
         </div>
-        <div id="about" class=" text-white px-64 mt-10">
+        <div id="about" class="text-white px-12 xl:px-64 mt-10">
                 <h1 class="text-5xl text-center font-bold text-cyan-700 pb-6"> Blanquet Antoine</h1>
                 <h2 class="text-xl font-bold text-cyan-700 underline underline-offset-8 pb-3">A propos de moi</h2>
                 <p class="text-l pb-3">Je m'appelle Antoine et je suis actuellement étudiant alternant en BTS SIO option SLAM. J'ai commencé la programmation il y a maintenant 2 ans. Me concernant je préfère la programmation FrontEnd plutôt que BackEnd. J'aime l'innovation et apporter ma créativité lors des différents projet que j'ai pu effectuer tout seul ou en entreprise. </span>
@@ -78,7 +101,7 @@
                 &nbsp;-Travailler en mode projet</p>
         </div>
         <div id="parcours" class="text-white content-center items-center text-center mt-32 mb-10 w-full">
-            <div class="mb-16 px-52">
+            <div class="mb-16 px-12 xl:px-52">
                 <h1 class="text-5xl text-cyan-700 font-bold pb-24">Mon parcours</h1>
                 <h2 class="text-xl underline underline-offset-2 font-bold pb-3">Mes aspirations professionnelles :</h2>
                 <p>Mon but actuel et de poursuivre mes études sur une license orientée FrontEnd pour pouvoir approfondir mes capacités dans cette branche et faire d'avantage ce qu'il me plait. Par la suite, pourquoi pas enchainer sur un master pour acquérir de nouvelles compétences encore plus profondes. A la fin de mes études j'aimerai intégrer une entreprise qui me donnera la possibilitée de faire de la programmation orientée Web.</p>
@@ -161,7 +184,7 @@
           </section>
         <footer class="bg-black text-white py-4">
             <div class="container mx-auto flex items-center justify-between">
-              <div class="flex w-1/2 flex-row">
+              <div class="flex w-1/2 flex-row items-center">
                 <p class="text-sm">Copyright © Your Website 2023</p>
                 <a href="https://www.linkedin.com/in/blanquetantoine/"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="m-6 fill-cyan-700"viewBox="0 0 448 512">
                     <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
@@ -175,9 +198,9 @@
                 <a class="ml-4 text-sm text-gray-500">Terms of Service</a>
               </div>
             </div>
-          </footer>
-          <button id="to-top-button" onclick="goToTop()" title="Go To Top"
-          class="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-cyan-700 text-white text-3xl font-bold">&uarr;</button>
+        </footer>
+        <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+          class="hidden fixed z-90 bottom-8 right-8 border-0 w-12 h-12 xl:w-16 xl:h-16 rounded-full drop-shadow-md bg-cyan-700 text-white text-xl xl:text-3xl font-bold">&uarr;</button>
 <script src="./script/home.js"></script>
 </body>
 </html>
