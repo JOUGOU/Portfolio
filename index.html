@@ -19,7 +19,9 @@
                     </svg></a>
                 <li class="btn-primary"><a href="#about">A propos</a></li>
                 <li class="btn-primary"><a href="#parcours">Parcours</a></li>
+                <li class="btn-primary"><a href="#projets">Projets</a></li>
                 <li class="btn-primary"><a href="#veille">Veille</a></li>
+                <li class="btn-primary"><a href="#competences">Compétences</a></li>
                 <li class="btn-primary"><a href="#contact">Contact</a></li>
                 <a href="https://www.linkedin.com/in/blanquetantoine/"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="m-6 fill-cyan-700 hover:fill-cyan-900"viewBox="0 0 448 512">
                     <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
@@ -89,16 +91,20 @@
         </div>
         <div id="about" class="text-white px-12 xl:px-64 mt-10">
                 <h1 class="text-5xl text-center font-bold text-cyan-700 pb-6"> Blanquet Antoine</h1>
-                <h2 class="text-xl font-bold text-cyan-700 underline underline-offset-8 pb-3">A propos de moi</h2>
+                <button type="submit" onclick="imprimer()" class="flex justify-center items-center  py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-cyan-700 sm:w-fit hover:bg-cyan-900 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Télécharger CV</button>
+                <h2 class="text-xl font-bold text-cyan-700 underline underline-offset-8 pt-3 pb-3">A propos de moi</h2>
                 <p class="text-l pb-3">Je m'appelle Antoine et je suis actuellement étudiant alternant en BTS SIO option SLAM. J'ai commencé la programmation il y a maintenant 2 ans. Me concernant je préfère la programmation FrontEnd plutôt que BackEnd. J'aime l'innovation et apporter ma créativité lors des différents projet que j'ai pu effectuer tout seul ou en entreprise. </span>
                 <h2 class="text-xl font-bold  text-cyan-700 underline underline-offset-8 decoration-cyan-700 pb-3">Option SLAM</h2>
                 <p class="text-l pb-3">Le BTS SIO option SLAM (Solutions Logicielles et Applications Métiers) est formé à la mise en place de solutions informatiques au sein des entreprises et est capable de gérer un parc informatique complet. Avec l’option SLAM, l’étudiant est en charge du suivi du cycle de vie des applications, de l’analyse des besoins techniques à la maintenance des programmes.<br>
                 <p class="underline underline-offset-2 pb-3"> A l’issue de la formation, il sera capable de :</p> <br>     
-                <p>&nbsp;-Concevoir et développer une solution applicative et en assurer la maintenance corrective et la cybersécurité<br>
+                <p class="pb-10">&nbsp;-Concevoir et développer une solution applicative et en assurer la maintenance corrective et la cybersécurité<br>
                 &nbsp;-Rechercher des réponses adaptées aux besoins d’évolutions d’une solution applicative<br>
                 &nbsp;-Intégrer une solution applicative dans son environnement final<br>
                 &nbsp;-Gérer des données structurées et non structurées<br>
                 &nbsp;-Travailler en mode projet</p>
+                <h1 class="text-5xl text-center font-bold text-cyan-700 pb-6">Mon entreprise</h1>
+                <h2 class="text-xl font-bold text-cyan-700 underline underline-offset-8 pb-3">Prophyl Informatique</h2>
+                <p class="text-l pb-3">Depuis 1994, en premier lieu autour des technologies AS400, puis dans la gestion de l’architecture « systèmes et réseaux », ProPhyl Informatique accompagne ses clients dans la refonte, l’évolution et la gestion de leur système d’information. En 1999, et sous l’impulsion de ses collaborateurs, ProPhyl Informatique aborde un virage significatif vers les technologies innovantes. Actuellement, forte de son expérience, ProPhyl Informatique couvre l’ensemble des métiers traditionnels et innovants de l’informatique de gestion : conseil & développement de logiciels sur des technologies web, mise en place d'outils décisionnels et gestion des infrastructures. Ses consultants et ingénieurs interviennent dans les domaines de l'audit, du conseil, de la mise en œuvre de solutions dans bon nombre de secteurs d'activités tels que : l'industrie, les services, la finance, les collectivités locales ..</p>
         </div>
         <div id="parcours" class="text-white content-center items-center text-center mt-32 mb-10 w-full">
             <div class="mb-16 px-12 xl:px-52">
@@ -156,12 +162,53 @@
                 </div>
                 <div class="mt-3 sm:pr-8">
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">ALTERNANCE</h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">SEPTEMBRE 2022 - AOUT 2023</time>
+                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">SEPT 2022-AOUT 2023</time>
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">Programmation Fullstack: Créateur/débugger</p>
                 </div>
             </li>
         </ol>
-        <section id="contact" class="bg-white dark:bg-gray-900">
+        <div id="competences" class="text-center content-center items-center px-16">
+            <div class="inline-block">
+                <h1 class="text-5xl text-cyan-700 font-bold pb-24 inline-block">Mes compétences</h1>
+                <embed src="/TableauDeSynthèseBlanquet.pdf" width="900" height="800" type="application/pdf"/>
+            </div>
+        </div>
+        <div id="projets" class="text-center content-center justify-center py-8 text-white">
+            <h1 class="text-5xl text-cyan-700 font-bold">Mes projets</h1>
+            <div class="py-8 text-center">
+                <h2 class="text-2xl mb-6">Selenium Grid et Docker</h2>
+                <p class="px-52">Selenium Grid est une plateforme qui permet la prise de contrôle à distance d'un ou plusieurs navigateurs web installé sur une ou plusieurs machines réel ou virtuelle. Dans mon cas, j'ai utilisé Selenium Grid pour la réalisation de test dans mon entreprise. Cet outil étant orienté web, les tests que nous effectuons sont donc des réponses de requette http/s pour vérifier le bon fonctionnement d'un site. Je me suis également aidé de Docker qui me permet de créer un grand nombre de machine virtuelle possédant des OS différents et utilisant des navigateurs web différent afin de vérifier l'accès aux sites sur plusieurs plateformes.</p>
+                <div class="w-1/2 inline-block">
+                    <p class="px-52 py-8 underline underline-offset-8"> Voici mes containers Docker :</p>
+                    <img src="./img/docker1.png" alt="docker" class="pt-3 rounded-lg">
+                    <p class="px-52 py-8 underline underline-offset-8">Interface de Selenium Grid avec mes différentes VM ainsi que leurs navigateurs :</p>
+                    <img src="./img/selenium1.png" alt="selenium1" class="pt-3 rounded-lg">
+                    <p class="px-52 py-8 underline underline-offset-8">VNC viewer qui permet d'avoir un interface graphique de nos script de test :</p>
+                    <img src="./img/selenium2.png" alt="selenium2" class="pt-3 rounded-lg">
+                    <p class="px-52 py-8 underline underline-offset-8">L'interface graphique de notre VM suite à notre script de test :</p>
+                    <img src="./img/selenium3.png" alt="selenium3"class="pt-3 rounded-lg">
+                </div>
+                <h2 class="pt-10 text-2xl">Easyproject(site web en Symfony)</h2>
+                <p class="px-52">EasyProject est un projet d'entreprise développé en Symfony. EasyProject est un site de gestion des ressources d'une entreprise comme par exemple la création la gestion et la modification d'un projet. Mon rôle est de réaliser un versioning étant donné que la version de symfony est trop vieille.Pour réaliser ma tâche je me suis donc aidé de la documentation présente sur le site officiel de Symfony.</p>
+                <div class="w-1/2 inline-block">
+                    <p class="px-52 py-8 underline underline-offset-8">Page d'accueil de EasyProject :</p>
+                    <img src="./img/symfony1.png" alt="symfony1" class="pt-3 rounded-lg">
+                    <img src="./img/symfony2.png" alt="symfony2" class="pt-3 rounded-lg">
+                    <img src="./img/symfony3.png" alt="symfony3" class="pt-3 rounded-lg h-96">
+                </div>
+            </div>
+        </div>
+        <div id="veille" class="text-center content-center justify-center py-8 text-white">
+            <h1 class="text-5xl text-cyan-700 font-bold">Veille informatique</h1>
+            <p class="px-52">J'ai porté ma veille sur la programmation mobile et plus particulièrement vers les languages IOS. J'ai choisi ce sujet pour ma veille car je souhaite intégrer un parcours professionnel orienté vers du développement mobile. Pour la réalisation de cette veille je me suis aidé de Feedly qui m'a permis d'intégrer à mon profil des sujets uniquement orienté sur mes attentes. En l'occurence les différents sujets ajoutés sont l'actualité de Swift , Xcode ainsi que Objective-C.</p>
+            <div class="w-1/2 inline-block">
+            <p class="px-52 py-8 underline underline-offset-8">Mon Feedly :</p>
+                <img src="./img/veille1.png" alt="selenium3"class="pt-3 rounded-lg">
+            <p class="px-52 py-8 underline underline-offset-8">Voici mes différents articles :</p>
+                <img src="./img/veille2.png" alt="selenium3"class="rounded-lg">
+            </div>
+        </div>
+        <section id="contact" class=" dark:bg-gray-900">
             <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Me contacter</h2>
                 <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Tu souhaites me poser des questions à propos de mes études ou de la programmation ? N'hésite pas à remplir ce formulaire !</p>
@@ -173,12 +220,15 @@
                     <div>
                         <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sujet</label>
                         <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="De quoi traite ta question ?" required>
-                    </div>
+                    </div
                     <div class="sm:col-span-2">
                         <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Ton message</label>
                         <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Dit moi comment je peux t'aider :)"></textarea>
                     </div>
-                    <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-cyan-700 sm:w-fit hover:bg-cyan-900 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Envoyer le message</button>
+                    <div class="text-center">
+                        <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-cyan-700 sm:w-fit hover:bg-cyan-900 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Envoyer le message</button>
+                    </div>
+                    
                 </form>
             </div>
           </section>

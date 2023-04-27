@@ -13,3 +13,7 @@ window.onscroll = function () {
 function goToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 } 
+function imprimer() {
+    var localisation =self.location.href="./cv.pdf";
+    window.print(localisation);
+    }
